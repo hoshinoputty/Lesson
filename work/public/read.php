@@ -118,10 +118,10 @@ if (isset($_GET['keyword'])) {
                 <img src="images/asc.png" alt="昇順に並び替え" class="sort-img">
               </a>
               <form action="read.php" method="get" class="search-form">
-                <input type="text" class="serach-box" placeholder="商品名で検索" name="keyword" value="<?= $keyword; ?>">
+                <input type="text" class="search-box" placeholder="商品名で検索" name="keyword" value="<?= $keyword; ?>">
               </form>
           </div>
-          <a href="#" class="btn">商品登録</a>
+          <a href="create.php" class="btn">商品登録</a>
       </div>
       <table class="products-table">
           <tr>
